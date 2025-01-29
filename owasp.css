@@ -1,0 +1,152 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.navbar{
+    background-color:rgba(9, 49, 61, 0.397);
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    height: 22px;
+    width: 98%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:"Noto Serif";
+    z-index: 10;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+    }
+    #home:hover {
+     opacity: 80%;
+     
+     
+    }
+    #About:hover  {
+        opacity: 80%;
+        
+        
+       }
+       #Events:hover {
+        opacity: 80%;
+      
+       }
+       #Our_team:hover {
+        opacity: 80%;
+         }
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 45px;
+    align-items: center;
+    margin-right: 20px;
+    
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+#background {
+  
+    
+background-image: "bg.jpg";
+background-size: cover;
+background-repeat: no-repeat;
+
+
+height: 90%;
+width: 100%;
+opacity: 95%;
+padding: 0;
+margin: 0;
+
+}
+#background:hover{
+    transition: background-image 0.3s ease;
+}
+
+/* about owasp */
+
+#AboutOwasp {
+
+text-align: center;
+}
+.aboutus {
+    background-color: #446f7a;
+}
+.aboutus {
+/* position: absolute; */
+background-image: url("https://png.pngtree.com/background/20231011/original/pngtree-blue-fire-on-black-background-beautiful-dark-blue-photo-picture-image_5445086.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 40vh;
+width: 100%;
+opacity: 95%;
+padding-bottom: 0px;
+
+}
+ #description {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    
+    font-family: "Poppins", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+ }
+ #AboutOwasp {
+    font-family:"Lexend Giga";
+    color: #ffffffe7;
+    font-size: 40px;
+    padding-top: 20px;
+ }
+ /* Events */
+ .event {
+ /* position: absolute; */
+  background-image: url("yes.jpeg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ height: 100vh;
+ width: 100%;
+ opacity: 95%;
+padding-top: 0; } 
+ #events {
+
+    font-family:"Lexend Giga";
+    color: #ffffffe7;
+    font-size: 40px;
+    text-align: center;
+     padding-top: 30px;
+     z-index: 99;
+     padding-left: 0%;
+     margin: 0%;
+ }
+
+ .event-heading {
+    font-family:"Poppins", sans-serif;
+    color: rgb(240, 232, 232);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+ }
+ .event-text {
+    font-family:"Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+ }
